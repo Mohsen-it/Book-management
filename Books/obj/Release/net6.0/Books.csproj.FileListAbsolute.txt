@@ -1,0 +1,12 @@
+C:\Users\Mohsen\source\repos\Book\Books\bin\Release\net6.0\Books.deps.json
+C:\Users\Mohsen\source\repos\Book\Books\bin\Release\net6.0\Books.dll
+C:\Users\Mohsen\source\repos\Book\Books\bin\Release\net6.0\Books.pdb
+C:\Users\Mohsen\source\repos\Book\Books\obj\Release\net6.0\Books.csproj.AssemblyReference.cache
+C:\Users\Mohsen\source\repos\Book\Books\obj\Release\net6.0\Books.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohsen\source\repos\Book\Books\obj\Release\net6.0\Books.AssemblyInfoInputs.cache
+C:\Users\Mohsen\source\repos\Book\Books\obj\Release\net6.0\Books.AssemblyInfo.cs
+C:\Users\Mohsen\source\repos\Book\Books\obj\Release\net6.0\Books.csproj.CoreCompileInputs.cache
+C:\Users\Mohsen\source\repos\Book\Books\obj\Release\net6.0\Books.dll
+C:\Users\Mohsen\source\repos\Book\Books\obj\Release\net6.0\refint\Books.dll
+C:\Users\Mohsen\source\repos\Book\Books\obj\Release\net6.0\Books.pdb
+C:\Users\Mohsen\source\repos\Book\Books\obj\Release\net6.0\ref\Books.dll

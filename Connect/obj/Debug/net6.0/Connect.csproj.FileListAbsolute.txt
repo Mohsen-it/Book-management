@@ -1,0 +1,17 @@
+C:\Users\Mohsen\source\repos\Book\Connect\bin\Debug\net6.0\Connect.deps.json
+C:\Users\Mohsen\source\repos\Book\Connect\bin\Debug\net6.0\Connect.dll
+C:\Users\Mohsen\source\repos\Book\Connect\bin\Debug\net6.0\Connect.pdb
+C:\Users\Mohsen\source\repos\Book\Connect\obj\Debug\net6.0\Connect.csproj.AssemblyReference.cache
+C:\Users\Mohsen\source\repos\Book\Connect\obj\Debug\net6.0\Connect.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohsen\source\repos\Book\Connect\obj\Debug\net6.0\Connect.AssemblyInfoInputs.cache
+C:\Users\Mohsen\source\repos\Book\Connect\obj\Debug\net6.0\Connect.AssemblyInfo.cs
+C:\Users\Mohsen\source\repos\Book\Connect\obj\Debug\net6.0\Connect.csproj.CoreCompileInputs.cache
+C:\Users\Mohsen\source\repos\Book\Connect\obj\Debug\net6.0\Connect.csproj.CopyComplete
+C:\Users\Mohsen\source\repos\Book\Connect\obj\Debug\net6.0\Connect.dll
+C:\Users\Mohsen\source\repos\Book\Connect\obj\Debug\net6.0\refint\Connect.dll
+C:\Users\Mohsen\source\repos\Book\Connect\obj\Debug\net6.0\Connect.pdb
+C:\Users\Mohsen\source\repos\Book\Connect\obj\Debug\net6.0\ref\Connect.dll
+C:\Users\Mohsen\source\repos\Book\Connect\bin\Debug\net6.0\Connect.runtimeconfig.json
+C:\Users\Mohsen\source\repos\Book\Connect\obj\Debug\net6.0\Connect.genruntimeconfig.cache
+C:\Users\Mohsen\source\repos\Book\Connect\bin\Debug\net6.0\Books.dll
+C:\Users\Mohsen\source\repos\Book\Connect\bin\Debug\net6.0\Books.pdb
