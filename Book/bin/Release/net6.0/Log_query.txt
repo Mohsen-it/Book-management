@@ -1,0 +1,90 @@
+
+Log Entry : 2:17:02 PM Sunday, September 25, 2022
+  :warn: 9/25/2022 14:17:02.230 SqlServerEventId.DecimalTypeDefaultWarning[30000] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      No store type was specified for the decimal property 'Price' on entity type 'Books'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+-----------------------------------------------
+
+Log Entry : 2:17:02 PM Sunday, September 25, 2022
+  :info: 9/25/2022 14:17:02.460 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.9 initialized 'BookDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+-----------------------------------------------
+
+Log Entry : 2:17:04 PM Sunday, September 25, 2022
+  :info: 9/25/2022 14:17:04.861 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (102ms) [Parameters=[@__userName_0='?' (Size = 4000), @__Password_1='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT [u].[Name], [u].[Password]
+      FROM [users] AS [u]
+      WHERE ([u].[Name] = @__userName_0) AND ([u].[Password] = @__Password_1)
+-----------------------------------------------
+
+Log Entry : 2:17:04 PM Sunday, September 25, 2022
+  :info: 9/25/2022 14:17:04.899 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.9 initialized 'BookDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+-----------------------------------------------
+
+Log Entry : 2:17:04 PM Sunday, September 25, 2022
+  :info: 9/25/2022 14:17:04.924 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [b].[Name], [b].[Id]
+      FROM [books] AS [b]
+-----------------------------------------------
+
+Log Entry : 2:17:05 PM Sunday, September 25, 2022
+  :info: 9/25/2022 14:17:05.063 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (14ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [b].[Name] AS [Book], COUNT(*) AS [Counter]
+      FROM [books] AS [b]
+      GROUP BY [b].[Name]
+      HAVING COUNT(*) >= 1
+-----------------------------------------------
+
+Log Entry : 2:17:36 PM Sunday, September 25, 2022
+  :info: 9/25/2022 14:17:36.925 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.9 initialized 'BookDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+-----------------------------------------------
+
+Log Entry : 2:17:36 PM Sunday, September 25, 2022
+  :info: 9/25/2022 14:17:36.992 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (8ms) [Parameters=[@__s_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [b].[Id], [b].[Description], [b].[Name], [b].[Price]
+      FROM [books] AS [b]
+      WHERE [b].[Id] = @__s_0
+-----------------------------------------------
+
+Log Entry : 2:17:43 PM Sunday, September 25, 2022
+  :info: 9/25/2022 14:17:43.505 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [b].[Name], [b].[Id]
+      FROM [books] AS [b]
+-----------------------------------------------
+
+Log Entry : 2:17:43 PM Sunday, September 25, 2022
+  :info: 9/25/2022 14:17:43.510 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [b].[Name] AS [Book], COUNT(*) AS [Counter]
+      FROM [books] AS [b]
+      GROUP BY [b].[Name]
+      HAVING COUNT(*) >= 1
+-----------------------------------------------
+
+Log Entry : 2:17:54 PM Sunday, September 25, 2022
+  :info: 9/25/2022 14:17:54.694 CoreEventId.ContextInitialized[10403] (Microsoft.EntityFrameworkCore.Infrastructure) 
+      Entity Framework Core 6.0.9 initialized 'BookDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+-----------------------------------------------
+
+Log Entry : 2:17:54 PM Sunday, September 25, 2022
+  :info: 9/25/2022 14:17:54.698 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (2ms) [Parameters=[@__s_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [b].[Id], [b].[Description], [b].[Name], [b].[Price]
+      FROM [books] AS [b]
+      WHERE [b].[Id] = @__s_0
+-----------------------------------------------
+
+Log Entry : 2:17:54 PM Sunday, September 25, 2022
+  :info: 9/25/2022 14:17:54.863 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SET NOCOUNT ON;
+      DELETE FROM [books]
+      WHERE [Id] = @p0;
+      SELECT @@ROWCOUNT;
+-----------------------------------------------
