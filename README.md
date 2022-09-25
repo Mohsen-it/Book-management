@@ -1,2 +1,2 @@
 # BookRepo
-/Images/Screenshot (15).png
+	/assets/images/Screenshot (15).png
