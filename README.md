@@ -1,5 +1,9 @@
 # Book management
 
+Logging
+
+![Screenshot (35)](https://user-images.githubusercontent.com/106590677/196218948-d308f48a-2bca-4395-8a1d-cada9839f686.png)
+
  Adding Users
 
 ![Screenshot (20)](https://user-images.githubusercontent.com/106590677/192142059-b1012f85-6c22-43cc-989a-7d2106ebd8df.png)
